@@ -1,0 +1,16 @@
+.icon {
+  width: 24px;
+  height: 24px;
+
+  &--phone {
+    background-image: url(/src/assets/images/icons/icon-phone.svg);
+  }
+
+  &--menu {
+    background-image: url(/src/assets/images/icons/icon-menu.svg);
+  }
+
+  &--close {
+    background-image: url(/src/assets/images/icons/icon-close.svg);
+  }
+}
