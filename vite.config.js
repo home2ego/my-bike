@@ -1,10 +1,8 @@
 import { defineConfig } from 'vite';
-import { createHtmlPlugin } from 'vite-plugin-html';
+import htmlMinifier from 'vite-plugin-html-minifier';
 
 export default defineConfig({
   plugins: [
-    createHtmlPlugin({
-      minify: true, // Enable HTML minification
-    }),
+    htmlMinifier(), // Uses default options
   ],
 });
