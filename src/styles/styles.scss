@@ -1,3 +1,6 @@
+@import '/src/styles/utils/variables';
+@import '/src/styles/utils/mixins';
+
 @use '/src/styles/blocks/fonts';
 @use '/src/styles/blocks/page';
 @use '/src/styles/blocks/header';

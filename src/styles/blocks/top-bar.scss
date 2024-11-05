@@ -1,16 +1,35 @@
 .top-bar {
-  padding: 24px 20px;
+  padding-block: 24px;
+  @include contentPaddingInline;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  &__logo {
+  @include onTablet {
+    padding-block: 32px;
+  }
+
+  &__logo-link {
     display: inline-flex;
+  }
+
+  &__logo {
+    height: 16px;
+    width: 152px;
+
+    @include onTablet {
+      height: 24px;
+      width: 228px;
+    }
   }
 
   &__icons {
     display: flex;
     column-gap: 24px;
+
+    @include onTablet {
+      column-gap: 32px;
+    }
   }
 }
