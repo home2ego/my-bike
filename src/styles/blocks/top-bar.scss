@@ -1,11 +1,11 @@
 .top-bar {
-  padding-block: 24px;
-
-  @include content-padding-inline;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding-block: 24px;
+
+  @include content-padding-inline;
 
   @include on-tablet {
     padding-block: 32px;
@@ -18,6 +18,8 @@
   &__logo {
     height: 16px;
     width: 152px;
+
+    @include hover(scale, 1.05);
 
     @include on-tablet {
       height: 24px;
