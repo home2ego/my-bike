@@ -1,12 +1,13 @@
 .top-bar {
   padding-block: 24px;
-  @include contentPaddingInline;
+
+  @include content-padding-inline;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  @include onTablet {
+  @include on-tablet {
     padding-block: 32px;
   }
 
@@ -18,7 +19,7 @@
     height: 16px;
     width: 152px;
 
-    @include onTablet {
+    @include on-tablet {
       height: 24px;
       width: 228px;
     }
@@ -28,7 +29,7 @@
     display: flex;
     column-gap: 24px;
 
-    @include onTablet {
+    @include on-tablet {
       column-gap: 32px;
     }
   }
