@@ -11,6 +11,14 @@
     min-width: 320px;
   }
 
+  &__header {
+    margin-bottom: 64px;
+
+    @include on-tablet {
+      margin-bottom: 120px;
+    }
+  }
+
   &__menu {
     position: fixed;
     top: 0;
