@@ -2,21 +2,7 @@
   box-sizing: border-box;
   height: 100vh;
 
-  /* fallback */
-  background-image: url(/src/assets/images/header-bg.jpg);
-
-  /* for older WebKit browsers */
-  background-image: -webkit-image-set(
-    url('/src/assets/images/header-bg.webp') type('image/webp'),
-    url('/src/assets/images/header-bg.jpg') type('image/jpeg')
-  );
-
-  /* for modern browsers */
-  background-image: image-set(
-    url(/src/assets/images/header-bg.webp) type('image/webp'),
-    url(/src/assets/images/header-bg.jpg) type('image/jpeg')
-  );
-
+  background-image: url(/src/assets/images/header-bg.webp);
   background-size: cover;
   background-position: center;
 
