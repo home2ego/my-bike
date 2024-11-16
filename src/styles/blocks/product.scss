@@ -1,6 +1,6 @@
 .product {
   &__photo {
-    width: 100%;
+    width: min(100%, 600px);
     height: auto;
   }
 }
