@@ -24,10 +24,6 @@
   }
 }
 
-.container {
-  @include content-padding-inline;
-}
-
 @mixin hover($property, $value) {
   transition: $property 0.2s ease-in-out;
 
