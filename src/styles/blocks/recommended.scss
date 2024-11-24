@@ -12,10 +12,8 @@
   &__product {
     grid-column: 1 / -1;
 
-    @include on-tablet {
-      max-width: 600px;
-      margin: 0 auto;
-    }
+    max-width: 600px;
+    margin: 0 auto;
 
     @include on-desktop {
       grid-column: span 4;
