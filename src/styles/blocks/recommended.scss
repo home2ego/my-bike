@@ -1,4 +1,13 @@
 .recommended {
+  &__content {
+    max-width: 600px;
+    margin: 0 auto;
+
+    @include on-desktop {
+      max-width: initial;
+    }
+  }
+
   &__products {
     @include page-grid;
 
@@ -11,9 +20,6 @@
 
   &__product {
     grid-column: 1 / -1;
-
-    max-width: 600px;
-    margin: 0 auto;
 
     @include on-desktop {
       grid-column: span 4;
