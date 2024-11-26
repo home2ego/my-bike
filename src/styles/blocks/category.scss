@@ -8,14 +8,13 @@
   &__link {
     position: relative;
     padding-bottom: 100%;
-    height: 0;
+
+    overflow: hidden;
 
     @include on-tablet {
       grid-column: span 3;
 
-      position: initial;
-      padding-bottom: initial;
-      height: initial;
+      padding-bottom: 0;
     }
 
     @include on-desktop {
@@ -30,6 +29,8 @@
     height: 100%;
     object-fit: cover;
     vertical-align: bottom;
+
+    @include hover(scale, 1.05);
 
     @include on-tablet {
       position: initial;
