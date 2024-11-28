@@ -1,24 +1,24 @@
 .product {
-  &__photo {
-    width: 100%;
-    height: auto;
-    vertical-align: bottom;
-  }
+    &__photo {
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
 
-  &__title {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 25.2px;
-    margin-block: 24px 0;
-  }
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25.2px;
+        margin-block: 24px 0;
+    }
 
-  &__description {
-    letter-spacing: 0.15px;
-    margin-block: 8px 0;
-  }
+    &__description {
+        letter-spacing: 0.15px;
+        margin-block: 8px 0;
+    }
 
-  &__price {
-    font-weight: 700;
-    margin-block: 12px 0;
-  }
+    &__price {
+        font-weight: 700;
+        margin-block: 12px 0;
+    }
 }

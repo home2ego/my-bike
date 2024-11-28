@@ -1,28 +1,28 @@
 .recommended {
-  &__content {
-    max-width: 600px;
-    margin: 0 auto;
+    &__content {
+        max-width: 600px;
+        margin: 0 auto;
 
-    @include on-desktop {
-      max-width: initial;
+        @include on-desktop {
+            max-width: initial;
+        }
     }
-  }
 
-  &__products {
-    @include page-grid;
+    &__products {
+        row-gap: 40px;
 
-    row-gap: 40px;
+        @include page-grid;
 
-    @include on-tablet {
-      row-gap: 56px;
+        @include on-tablet {
+            row-gap: 56px;
+        }
     }
-  }
 
-  &__product {
-    grid-column: 1 / -1;
+    &__product {
+        grid-column: 1 / -1;
 
-    @include on-desktop {
-      grid-column: span 4;
+        @include on-desktop {
+            grid-column: span 4;
+        }
     }
-  }
 }

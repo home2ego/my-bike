@@ -1,28 +1,28 @@
 .icon {
-  width: 24px;
-  height: 24px;
-  background-size: cover;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
 
-  @include hover(scale, 1.1);
+    @include hover(scale, 1.1);
 
-  @include on-tablet {
-    width: 32px;
-    height: 32px;
-  }
-
-  &--phone {
-    background-image: url(/src/assets/images/icons/icon-phone.svg);
-  }
-
-  &--menu {
-    background-image: url(/src/assets/images/icons/icon-menu.svg);
-
-    &:hover {
-      background-image: url(/src/assets/images/icons/icon-menu-hover.svg);
+    @include on-tablet {
+        width: 32px;
+        height: 32px;
     }
-  }
 
-  &--close {
-    background-image: url(/src/assets/images/icons/icon-close.svg);
-  }
+    &--phone {
+        background-image: url(/src/assets/images/icons/icon-phone.svg);
+    }
+
+    &--menu {
+        background-image: url(/src/assets/images/icons/icon-menu.svg);
+
+        &:hover {
+            background-image: url(/src/assets/images/icons/icon-menu-hover.svg);
+        }
+    }
+
+    &--close {
+        background-image: url(/src/assets/images/icons/icon-close.svg);
+    }
 }
