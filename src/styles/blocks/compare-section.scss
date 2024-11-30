@@ -1,5 +1,5 @@
-.recommended {
-    &__products {
+.compare-section {
+    &__bikes {
         row-gap: 40px;
 
         @include page-grid;
@@ -9,7 +9,7 @@
         }
     }
 
-    &__product {
+    &__bike {
         grid-column: 1 / -1;
 
         @include on-tablet {
