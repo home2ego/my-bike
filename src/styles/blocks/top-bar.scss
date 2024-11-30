@@ -3,34 +3,25 @@
     justify-content: space-between;
     align-items: center;
 
-    padding-block: 24px;
-
-    @include on-tablet {
-        padding-block: 32px;
-    }
+    padding-block: clamp(24px, 5vw, 36px);
 
     &__logo-link {
         display: inline-flex;
     }
 
     &__logo {
-        height: 16px;
-        width: 152px;
-
-        @include hover(scale, 1.05);
+        width: 130px;
+        height: auto;
 
         @include on-tablet {
-            height: 24px;
-            width: 228px;
+            width: 187px;
         }
+
+        @include hover(scale, 1.05);
     }
 
     &__icons {
         display: flex;
-        column-gap: 24px;
-
-        @include on-tablet {
-            column-gap: 32px;
-        }
+        column-gap: clamp(24px, 5.5vw, 32px);
     }
 }

@@ -1,5 +1,5 @@
 .page {
-    font-family: Manrope, system-ui, sans-serif;
+    font-family: Poppins, system-ui, sans-serif;
     font-size: 16px;
     line-height: 22.4px;
     color: $main-text-color;
@@ -19,7 +19,7 @@
 
         transition: all 0.3s ease-in-out;
         opacity: 0;
-        translate: -100%;
+        translate: 0 -100%;
         pointer-events: none;
 
         &:target {
