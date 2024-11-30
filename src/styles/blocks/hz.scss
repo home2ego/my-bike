@@ -1,0 +1,54 @@
+.hz {
+    background-color: #fcfaef;
+
+    &__background-photo {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        vertical-align: bottom;
+
+        @include on-tablet {
+            height: 400px;
+        }
+
+        @include on-desktop {
+            height: 460px;
+        }
+    }
+
+    &__content {
+        padding-block: 48px;
+
+        @include on-tablet {
+            padding-block: 120px;
+        }
+
+        @include page-grid;
+    }
+
+    &__title {
+        grid-column: 1 / -1;
+
+        @include on-tablet {
+            grid-column: 1 / 4;
+        }
+
+        @include on-desktop {
+            grid-column: 1 / 7;
+        }
+    }
+
+    &__description {
+        grid-column: 1 / -1;
+        margin: 0;
+        letter-spacing: 0.15px;
+
+        @include on-tablet {
+            grid-column: 4 / -1;
+        }
+
+        @include on-desktop {
+            grid-column: 8 / -1;
+        }
+    }
+}
