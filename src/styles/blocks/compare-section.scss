@@ -1,12 +1,12 @@
 .compare-section {
+    &__title {
+        margin: $section-title-margin;
+    }
+
     &__bikes {
-        row-gap: 40px;
+        row-gap: clamp(40px, 6.5vw, 48px);
 
         @include page-grid;
-
-        @include on-tablet {
-            row-gap: 56px;
-        }
     }
 
     &__bike {

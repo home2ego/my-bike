@@ -3,12 +3,12 @@
     height: 24px;
     background-size: cover;
 
+    @include hover(scale, 1.1);
+
     @include on-tablet {
         width: 32px;
         height: 32px;
     }
-
-    @include hover(scale, 1.1);
 
     &--phone {
         background-image: url(/src/assets/images/icons/icon-phone.svg);

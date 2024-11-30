@@ -6,19 +6,20 @@
     }
 
     &__title {
-        font-size: 18px;
+        font-size: 24px;
+        line-height: 33.6px;
         font-weight: 700;
-        line-height: 25.2px;
-        margin-block: 24px 0;
+        margin-block: 32px 0;
     }
 
     &__description {
-        letter-spacing: 0.15px;
         margin-block: 8px 0;
     }
 
     &__price {
+        font-size: 24px;
+        line-height: 33.6px;
         font-weight: 700;
-        margin-block: 12px 0;
+        margin-block: 16px 0;
     }
 }

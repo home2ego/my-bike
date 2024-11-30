@@ -13,11 +13,11 @@
         width: 130px;
         height: auto;
 
+        @include hover(scale, 1.05);
+
         @include on-tablet {
             width: 187px;
         }
-
-        @include hover(scale, 1.05);
     }
 
     &__icons {

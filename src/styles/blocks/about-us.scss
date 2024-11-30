@@ -1,19 +1,19 @@
 .about-us {
-    @include page-grid;
-
-    row-gap: 32px;
     scroll-margin-top: 30px;
+    row-gap: 32px;
+
+    @include page-grid;
 
     &__title {
         margin: 0;
         grid-column: 1 / -1;
 
         @include on-tablet {
-            grid-column: 1 / 4;
+            grid-column: span 3;
         }
 
         @include on-desktop {
-            grid-column: 1 / 6;
+            grid-column: span 5;
         }
     }
 
@@ -26,11 +26,11 @@
         grid-column: 1 / -1;
 
         @include on-tablet {
-            grid-column: 4 / -1;
+            grid-column: span 3;
         }
 
         @include on-desktop {
-            grid-column: 6 / -2;
+            grid-column: span 6;
         }
     }
 }
