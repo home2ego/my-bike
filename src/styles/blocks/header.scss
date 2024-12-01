@@ -12,10 +12,6 @@
     }
 
     &__title {
-        font-size: clamp(36px, 8.5vw, 80px);
-        line-height: clamp(36px, 8.5vw, 80px);
-        font-weight: 700;
-        letter-spacing: -1.5px;
         text-align: center;
         margin-bottom: clamp(88px, 20vw, 200px);
     }

@@ -5,7 +5,9 @@
 @import "/src/styles/helpers/fonts";
 @import "/src/styles/helpers/ax-button.scss";
 
-@import "/src/styles/blocks/defaults";
+@import "/src/styles/blocks/_defaults";
+@import "/src/styles/blocks/typography";
+@import "/src/styles/blocks/link";
 @import "/src/styles/blocks/page";
 @import "/src/styles/blocks/container";
 
@@ -17,7 +19,7 @@
 @import "/src/styles/blocks/nav";
 
 @import "/src/styles/blocks/main";
-@import "/src/styles/blocks/section-title";
+
 @import "/src/styles/blocks/about-us";
 
 @import "/src/styles/blocks/compare-section";
@@ -25,6 +27,5 @@
 
 @import "/src/styles/blocks/details";
 @import "/src/styles/blocks/category";
-@import "/src/styles/blocks/link";
 
 @import "/src/styles/blocks/contacts";

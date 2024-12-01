@@ -1,9 +1,5 @@
 .link {
-    font-size: 16px;
-    line-height: 27px;
-    font-weight: 700;
     text-align: center;
-
     color: $secondary-color;
     background-color: $primary-color;
 
@@ -14,5 +10,25 @@
 
     &:active {
         box-shadow: 1px 4px 16px 0 rgba(232, 232, 240, 0.64);
+    }
+
+    &--lg {
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    &--md {
+        font-size: 16px;
+        line-height: 27px;
+        font-weight: 700;
+    }
+
+    &--sm {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 700;
+        letter-spacing: 2px;
     }
 }
