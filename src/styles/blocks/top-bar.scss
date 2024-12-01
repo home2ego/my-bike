@@ -13,7 +13,7 @@
         width: 130px;
         height: auto;
 
-        @include hover(scale, 1.05);
+        @include hover(scale, 1.04);
 
         @include on-tablet {
             width: 187px;
