@@ -1,18 +1,19 @@
 .link {
+    font-size: 16px;
     line-height: 27px;
     font-weight: 700;
     text-decoration: none;
     text-align: center;
 
-    color: #fff;
-    background-color: #f98921;
+    color: $secondary-color;
+    background-color: $primary-color;
 
     padding-block: 14.5px;
-    border-radius: 8px;
+    border-radius: 40px;
 
-    @include hover(background-color, #1b2129);
+    @include hover(box-shadow, 1px 4px 16px 0 rgba(232, 232, 240, 0.4));
 
     &:active {
-        background-color: #010810;
+        box-shadow: 1px 4px 16px 0 rgba(232, 232, 240, 0.64);
     }
 }
