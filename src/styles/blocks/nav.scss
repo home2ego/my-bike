@@ -1,9 +1,5 @@
 .nav {
     &__list {
-        margin: 0;
-        padding-left: 0;
-        list-style: none;
-
         display: flex;
         flex-direction: column;
         row-gap: 32px;
@@ -15,8 +11,6 @@
         font-size: 22px;
         line-height: 22px;
         letter-spacing: 2px;
-
-        text-decoration: none;
         text-transform: uppercase;
 
         &::after {
