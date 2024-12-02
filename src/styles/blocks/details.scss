@@ -3,6 +3,10 @@
     display: grid;
     row-gap: 48px;
 
+    &__title {
+        text-align: center;
+    }
+
     &__category-wrapper {
         display: grid;
         row-gap: clamp(40px, 6.5vw, 48px);
