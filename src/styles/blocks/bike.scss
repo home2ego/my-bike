@@ -1,4 +1,9 @@
 .bike {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 4;
+    gap: 0;
+
     &__link {
         display: inline-block;
         overflow: hidden;
