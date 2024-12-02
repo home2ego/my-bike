@@ -331,56 +331,103 @@
                         <h2 class="contacts__title title--lg">Contact us</h2>
 
                         <div class="contacts__wrapper">
-                            <form action="#" class="form">
-                                <div class="form__line">
+                            <form action="#" class="contacts__form form">
+                                <div class="form__input-line">
                                     <label for="name" class="sr-only">
                                         Name:
                                     </label>
                                     <input
                                         type="text"
                                         id="name"
-                                        class="form__field"
+                                        class="form__field text--sm"
                                         placeholder="Name"
                                         name="username"
                                         autocomplete="name"
+                                        required
                                     />
                                 </div>
 
-                                <div class="form__line">
+                                <div class="form__input-line">
                                     <label for="email" class="sr-only">
                                         Email:
                                     </label>
                                     <input
                                         type="email"
                                         id="email"
-                                        class="form__field"
+                                        class="form__field text--sm"
                                         placeholder="Email"
                                         name="email"
                                         autocomplete="email"
+                                        required
+                                        inputmode="email"
                                     />
                                 </div>
 
-                                <div class="form__line">
+                                <div class="form__comments-line">
                                     <label for="comments" class="sr-only">
                                         Comments:
                                     </label>
                                     <textarea
                                         id="comments"
-                                        class="form__comments"
+                                        class="form__field text--sm"
                                         placeholder="Message"
                                         name="comments"
+                                        required
+                                        maxlength="200"
+                                        rows="6"
                                     ></textarea>
                                 </div>
 
                                 <button
                                     type="submit"
-                                    class="ax-button link link--md"
+                                    class="ax-button link link--md form__btn"
                                 >
                                     Send
                                 </button>
                             </form>
 
-                            <address></address>
+                            <address class="contacts__address address">
+                                <div>
+                                    <h4 class="address__title title--sm">
+                                        Phone
+                                    </h4>
+                                    <a
+                                        href="tel:+123455555555"
+                                        class="address__link"
+                                    >
+                                        +1 234 5555-55-55
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <h4 class="address__title title--sm">
+                                        Email
+                                    </h4>
+                                    <a
+                                        href="mailto:hello@miami.com"
+                                        class="address__link"
+                                    >
+                                        hello@miami.com
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <h4 class="address__title title--sm">
+                                        Address
+                                    </h4>
+                                    <a
+                                        href="https://www.google.com/maps/place/First+Avenue/@44.9784731,-93.2788005,15.94z/data=!4m6!3m5!1s0x52b332917cb8a83f:0xadb920377f253346!8m2!3d44.9785315!4d-93.2759978!16zL20vMDRycXl5?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
+                                        target="_blank"
+                                        class="address__link"
+                                    >
+                                        400 first ave.
+                                        <br />
+                                        suite 700
+                                        <br />
+                                        Minneapolis, MN 55401
+                                    </a>
+                                </div>
+                            </address>
                         </div>
                     </section>
                 </div>

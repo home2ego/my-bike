@@ -4,4 +4,34 @@
     &__title {
         margin-bottom: $section-title-margin;
     }
+
+    &__wrapper {
+        row-gap: 48px;
+
+        @include page-grid;
+    }
+
+    &__form {
+        grid-column: 1 / -1;
+
+        @include on-tablet {
+            grid-column: span 3;
+        }
+
+        @include on-desktop {
+            grid-column: 1 / 6;
+        }
+    }
+
+    &__address {
+        grid-column: 1 / -1;
+
+        @include on-tablet {
+            grid-column: span 3;
+        }
+
+        @include on-desktop {
+            grid-column: 8 / 11;
+        }
+    }
 }

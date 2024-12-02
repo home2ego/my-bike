@@ -18,10 +18,22 @@
         line-height: 33.6px;
         font-weight: 700;
     }
+
+    &--sm {
+        font-size: 14px;
+        line-height: 19.6px;
+        font-weight: 400;
+    }
 }
 
 .text--lg {
     font-size: 23px;
     line-height: 32.2px;
     font-weight: 500;
+}
+
+.text--sm {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
 }

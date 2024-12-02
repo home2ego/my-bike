@@ -5,6 +5,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 p {
     margin: 0;
 }
@@ -23,7 +24,22 @@ img {
     vertical-align: bottom;
 }
 
+input {
+    padding: 0;
+    border: 0;
+}
+
+textarea {
+    padding: 0;
+    border: 0;
+    resize: none;
+}
+
 input,
 textarea {
     font: inherit;
+}
+
+address {
+    font-style: inherit;
 }
