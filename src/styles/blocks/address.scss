@@ -4,8 +4,10 @@
 
     row-gap: 24px;
 
-    &__title {
-        margin-bottom: 8px;
+    &__line {
+        display: inline-flex;
+        flex-direction: column;
+        row-gap: 8px;
     }
 
     &__link {
