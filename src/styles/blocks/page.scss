@@ -10,7 +10,12 @@
         min-width: 320px;
     }
 
+    &:has(.page__menu:target) {
+        overflow: hidden;
+    }
+
     &__menu {
+        overflow: auto;
         position: fixed;
         top: 0;
         left: 0;
