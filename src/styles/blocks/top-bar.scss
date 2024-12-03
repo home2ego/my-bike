@@ -5,19 +5,11 @@
 
     padding-block: clamp(24px, 6.5vw, 36px);
 
-    &__logo-link {
-        display: inline-flex;
-    }
-
     &__logo {
-        width: 130px;
+        width: clamp(130px, 25.5vw, 187px);
         height: auto;
 
-        @include hover(scale, 1.04);
-
-        @include on-tablet {
-            width: 187px;
-        }
+        @include hover(opacity, 0.6);
     }
 
     &__icons {

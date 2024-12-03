@@ -1,14 +1,11 @@
 .icon {
-    width: 24px;
-    height: 24px;
+    --icon-scale: clamp(24px, 5.5vw, 32px);
+
+    width: var(--icon-scale);
+    height: var(--icon-scale);
     background-size: cover;
 
-    @include hover(scale, 1.1);
-
-    @include on-tablet {
-        width: 32px;
-        height: 32px;
-    }
+    @include hover(opacity, 0.6);
 
     &--phone {
         background-image: url(/src/assets/images/icons/icon-phone.svg);
