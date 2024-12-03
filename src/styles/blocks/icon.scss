@@ -1,5 +1,6 @@
 .icon {
-    --icon-scale: clamp(24px, 5.5vw, 32px);
+    --icon-max-size: 32px;
+    --icon-scale: clamp(24px, 5.5vw, var(--icon-max-size));
 
     width: var(--icon-scale);
     height: var(--icon-scale);
@@ -9,6 +10,33 @@
 
     &--phone {
         background-image: url(/src/assets/images/icons/icon-phone.svg);
+        position: relative;
+
+        @include on-desktop {
+            &::before {
+                position: absolute;
+                top: 50%;
+                translate: 0 -50%;
+                right: var(--icon-max-size);
+                padding: 8px 20px;
+                content: "+1 234 555-55-55";
+                white-space: nowrap;
+                color: $primary-color;
+                font-size: 12px;
+                line-height: 16px;
+                font-weight: 700;
+                letter-spacing: 2px;
+
+                pointer-events: none;
+                opacity: 0;
+                transition: inherit;
+            }
+
+            &:hover::before {
+                opacity: 1;
+                pointer-events: all;
+            }
+        }
     }
 
     &--menu {
