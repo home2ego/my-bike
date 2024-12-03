@@ -3,8 +3,10 @@
     height: 100vh;
     background-color: #c2c2c2;
 
+    z-index: 1; /* to prevent images from being visible when navigating using the tab in an open menu */
+
     &__top {
-        position: sticky;
+        position: sticky; /* to keep cross always visible */
         top: 0;
         z-index: 1;
         background-color: #c2c2c2;

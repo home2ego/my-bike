@@ -11,11 +11,12 @@
     }
 
     &:has(.page__menu:target) {
-        overflow: hidden;
+        overflow: hidden; /* not to scroll the page */
     }
 
     &__menu {
-        overflow: auto;
+        overflow: auto; /* to scroll the menu if needed */
+
         position: fixed;
         top: 0;
         left: 0;
