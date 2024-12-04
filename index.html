@@ -18,12 +18,91 @@
             type="font/woff2"
             crossorigin="anonymous"
         />
+        <link
+            rel="preload"
+            href="/src/styles/styles.scss"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <style>
+            @font-face {
+                font-display: swap;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                src: url("/src/assets/fonts/poppins-600.woff2") format("woff2");
+                unicode-range: U+0020-007F;
+            }
+            body,
+            h1 {
+                margin: 0;
+            }
+            img {
+                vertical-align: bottom;
+            }
+            .page {
+                font-family: Poppins, system-ui, sans-serif;
+                color: #fff;
+                background-color: #1d1d1d;
+            }
+            .container {
+                max-width: 1020px;
+                margin-inline: auto;
+                padding-inline: clamp(20px, 7.5vw, 120px);
+            }
+            .header__content {
+                height: 100vh;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .header__title {
+                text-align: center;
+                margin-bottom: clamp(88px, 20vw, 200px);
+            }
+            .top-bar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                padding-block: clamp(24px, 6.5vw, 36px);
+            }
+            .top-bar__logo {
+                width: clamp(130px, 25.5vw, 187px);
+                height: auto;
+            }
+
+            .top-bar__icons {
+                display: flex;
+                column-gap: clamp(24px, 5.5vw, 32px);
+            }
+            .title--xl {
+                font-size: clamp(36px, 8.5vw, 80px);
+                line-height: clamp(36px, 8.5vw, 80px);
+                font-weight: 600;
+                letter-spacing: -1.5px;
+            }
+            .icon {
+                width: clamp(24px, 5.5vw, 32px);
+                height: clamp(24px, 5.5vw, 32px);
+                background-size: cover;
+            }
+            .icon--phone {
+                background-image: url(/src/assets/images/icons/icon-phone.svg);
+            }
+            .icon--menu {
+                background-image: url(/src/assets/images/icons/icon-menu.svg);
+            }
+        </style>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta
             name="description"
             content="Shift your ride, not gears. Find the fastest way to move in the city as the bike adapts intuitively to power the speed you need."
         />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="stylesheet" href="/src/styles/styles.scss" />
+        <noscript>
+            <link rel="stylesheet" href="/src/styles/styles.scss" />
+        </noscript>
     </head>
 
     <body class="page__body">
