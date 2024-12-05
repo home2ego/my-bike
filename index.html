@@ -11,12 +11,6 @@
             type="font/woff2"
             crossorigin="anonymous"
         />
-        <link
-            rel="preload"
-            href="/src/styles/styles.scss"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'"
-        />
         <style>
             @font-face {
                 font-display: swap;
@@ -88,14 +82,20 @@
                 background-image: url(/src/assets/images/icons/icon-menu.svg);
             }
         </style>
+        <link
+            rel="preload"
+            href="/src/styles/styles.scss"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <noscript>
+            <link rel="stylesheet" href="/src/styles/styles.scss" />
+        </noscript>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta
             name="description"
             content="Shift your ride, not gears. Find the fastest way to move in the city as the bike adapts intuitively to power the speed you need."
         />
-        <noscript>
-            <link rel="stylesheet" href="/src/styles/styles.scss" />
-        </noscript>
     </head>
 
     <body class="page__body">
