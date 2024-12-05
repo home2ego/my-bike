@@ -1,15 +1,7 @@
 .icon {
-    --icon-max-size: 32px;
-    --icon-scale: clamp(24px, 5.5vw, var(--icon-max-size));
-
-    width: var(--icon-scale);
-    height: var(--icon-scale);
-    background-size: cover;
-
     @include hover(opacity, 0.6);
 
     &--phone {
-        background-image: url(/src/assets/images/icons/icon-phone.svg);
         position: relative;
 
         @include on-desktop {
@@ -40,8 +32,6 @@
     }
 
     &--menu {
-        background-image: url(/src/assets/images/icons/icon-menu.svg);
-
         &:hover {
             background-image: url(/src/assets/images/icons/icon-menu-hover.svg);
         }
