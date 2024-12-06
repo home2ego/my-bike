@@ -3,12 +3,14 @@ import { createHtmlPlugin } from 'vite-plugin-html';
 
 export default defineConfig({
     build: {
-        polyfillModulePreload: false, // Disable the modulepreload polyfill
+        modulePreload: {
+            polyfill: false, // Disable the modulepreload polyfill
+        },
+        cssCodeSplit: false, // Ensure the CSS isn't split
     },
     plugins: [
         createHtmlPlugin({
             inject: {
-                // Inject the preload link
                 tags: [
                     {
                         tag: 'link',
@@ -18,9 +20,15 @@ export default defineConfig({
                             as: 'style',
                             onload: "this.onload=null;this.rel='stylesheet'", // Lazy load the stylesheet
                         },
-                        injectTo: 'head', // Insert it in the <head> section
+                        injectTo: 'head', // Inject in <head> section
                     },
                 ],
+            },
+            minify: {
+                removeComments: true, // Minify HTML
+                collapseWhitespace: true,
+                minifyCSS: true,
+                minifyJS: true,
             },
         }),
     ],
