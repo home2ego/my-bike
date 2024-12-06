@@ -1,6 +1,7 @@
 {
     "name": "my-bike",
     "version": "1.0.0",
+    "type": "module",
     "scripts": {
         "dev": "vite --open",
         "build": "vite build",
