@@ -1,32 +1,32 @@
-@use 'utils/variables';
-@use 'utils/mixins';
+@import 'utils/variables';
+@import 'utils/mixins';
 
-@use 'helpers/fonts';
-@use 'helpers/sr-only';
-@use 'helpers/ax-button';
+@import 'helpers/fonts';
+@import 'helpers/sr-only';
+@import 'helpers/ax-button';
 
-@use 'blocks/_defaults';
-@use 'blocks/typography';
-@use 'blocks/link';
-@use 'blocks/page';
+@import 'blocks/_defaults';
+@import 'blocks/typography';
+@import 'blocks/link';
+@import 'blocks/page';
 
-@use 'blocks/header';
-@use 'blocks/top-bar';
-@use 'blocks/icon';
+@import 'blocks/header';
+@import 'blocks/top-bar';
+@import 'blocks/icon';
 
-@use 'blocks/menu';
-@use 'blocks/nav';
+@import 'blocks/menu';
+@import 'blocks/nav';
 
-@use 'blocks/main';
+@import 'blocks/main';
 
-@use 'blocks/about-us';
+@import 'blocks/about-us';
 
-@use 'blocks/compare-section';
-@use 'blocks/bike';
+@import 'blocks/compare-section';
+@import 'blocks/bike';
 
-@use 'blocks/details';
-@use 'blocks/category';
+@import 'blocks/details';
+@import 'blocks/category';
 
-@use 'blocks/contacts';
-@use 'blocks/form';
-@use 'blocks/address';
+@import 'blocks/contacts';
+@import 'blocks/form';
+@import 'blocks/address';
