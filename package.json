@@ -1,14 +1,13 @@
 {
     "name": "my-bike",
     "version": "1.0.0",
-    "source": "src/index.html",
     "scripts": {
-        "start": "parcel --open",
-        "build": "parcel build"
+        "dev": "vite --open",
+        "build": "vite build",
+        "preview": "vite preview"
     },
     "devDependencies": {
-        "@parcel/transformer-sass": "2.13.2",
-        "parcel": "^2.13.2",
-        "svgo": "^3"
+        "sass": "^1.82.0",
+        "vite": "^6.0.3"
     }
 }

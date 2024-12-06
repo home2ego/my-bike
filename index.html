@@ -4,14 +4,14 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>MyBike</title>
-        <link rel="preload" as="font" href="assets/fonts/poppins-600.woff2" type="font/woff2" crossorigin="anonymous" />
+        <link rel="preload" as="font" href="fonts/poppins-600.woff2" type="font/woff2" crossorigin="anonymous" />
         <style>
             @font-face {
                 font-display: swap;
                 font-family: "Poppins";
                 font-style: normal;
                 font-weight: 600;
-                src: url("assets/fonts/poppins-600.woff2") format("woff2");
+                src: url("fonts/poppins-600.woff2") format("woff2");
                 unicode-range: U+0020-007F;
             }
             body,
@@ -70,17 +70,14 @@
                 background-size: cover;
             }
             .icon--phone {
-                background-image: url(assets/images/icons/icon-phone.svg);
+                background-image: url(images/icons/icon-phone.svg);
             }
             .icon--menu {
-                background-image: url(assets/images/icons/icon-menu.svg);
+                background-image: url(images/icons/icon-menu.svg);
             }
         </style>
-        <link rel="preload" href="styles/styles.scss" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript>
-            <link rel="stylesheet" href="styles/styles.scss" />
-        </noscript>
-        <link rel="icon" type="image/svg+xml" href="assets/images/icons/favicon.svg" />
+        <link rel="preload" href="src/styles/styles.scss" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <link rel="icon" type="image/svg+xml" href="images/icons/favicon.svg" />
         <meta
             name="description"
             content="Shift your ride, not gears. Find the fastest way to move in the city as the bike adapts intuitively to power the speed you need."
@@ -94,7 +91,7 @@
                     <div class="top-bar">
                         <a href="#">
                             <img
-                                src="assets/images/icons/logo.svg"
+                                src="images/icons/logo.svg"
                                 class="top-bar__logo"
                                 alt="MyBike logo"
                                 width="187px"
@@ -123,7 +120,7 @@
                 <div class="top-bar menu__top">
                     <a href="#">
                         <img
-                            src="assets/images/icons/logo-menu.svg"
+                            src="images/icons/logo-menu.svg"
                             class="top-bar__logo"
                             alt="MyBike logo"
                             width="187px"
@@ -179,7 +176,7 @@
                             <article class="bike compare-section__bike">
                                 <a href="#compare-section" class="bike__link">
                                     <img
-                                        src="assets/images/bike-1.webp"
+                                        src="images/bike-1.webp"
                                         alt="Sporty 4"
                                         class="bike__photo"
                                         width="648"
@@ -196,7 +193,7 @@
                             <article class="bike compare-section__bike">
                                 <a href="#compare-section" class="bike__link">
                                     <img
-                                        src="assets/images/bike-2.webp"
+                                        src="images/bike-2.webp"
                                         alt="Ride in town ST"
                                         class="bike__photo"
                                         width="648"
@@ -213,7 +210,7 @@
                             <article class="bike compare-section__bike">
                                 <a href="#compare-section" class="bike__link">
                                     <img
-                                        src="assets/images/bike-3.webp"
+                                        src="images/bike-3.webp"
                                         alt="Agile ride 3"
                                         class="bike__photo"
                                         width="648"
@@ -237,7 +234,7 @@
                                 <div class="category__photos">
                                     <a href="#details" class="category__link category__link--wide">
                                         <img
-                                            src="assets/images/details-1.webp"
+                                            src="images/details-1.webp"
                                             alt="Front view of the app attached to a bike's handlebar, showing calories burned and ridden distance on the screen."
                                             class="category__photo"
                                             loading="lazy"
@@ -248,7 +245,7 @@
 
                                     <a href="#details" class="category__link category__link--square">
                                         <img
-                                            src="assets/images/details-2.webp"
+                                            src="images/details-2.webp"
                                             alt="Rear view of the app attached to a bike's handlebar."
                                             class="category__photo"
                                             loading="lazy"
@@ -270,7 +267,7 @@
                                 <div class="category__photos">
                                     <a href="#details" class="category__link category__link--wide">
                                         <img
-                                            src="assets/images/details-3.webp"
+                                            src="images/details-3.webp"
                                             alt="Front view of the bicycle with the range light attached to the front part of the frame."
                                             class="category__photo"
                                             loading="lazy"
@@ -281,7 +278,7 @@
 
                                     <a href="#details" class="category__link category__link--square">
                                         <img
-                                            src="assets/images/details-4.webp"
+                                            src="images/details-4.webp"
                                             alt="Rear view of the bicycle with the range light attached to the back part of the frame."
                                             class="category__photo"
                                             loading="lazy"
@@ -303,7 +300,7 @@
                                 <div class="category__photos">
                                     <a href="#details" class="category__link category__link--square">
                                         <img
-                                            src="assets/images/details-5.webp"
+                                            src="images/details-5.webp"
                                             alt="Close-up of the hydraulic disc brake on the bike's handlebar, designed for total stopping power."
                                             class="category__photo"
                                             loading="lazy"
@@ -314,7 +311,7 @@
 
                                     <a href="#details" class="category__link category__link--wide">
                                         <img
-                                            src="assets/images/details-6.webp"
+                                            src="images/details-6.webp"
                                             alt="Lower part of the bicycle, showing lightweight wheels and frame."
                                             class="category__photo"
                                             loading="lazy"
@@ -419,4 +416,6 @@
             </div>
         </main>
     </body>
+
+    <script type="module" src="main.js"></script>
 </html>
