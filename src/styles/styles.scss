@@ -1,32 +1,32 @@
-@import "utils/variables";
-@import "utils/mixins";
+@use 'utils/variables';
+@use 'utils/mixins';
 
-@import "helpers/fonts";
-@import "helpers/sr-only";
-@import "helpers/ax-button";
+@use 'helpers/fonts';
+@use 'helpers/sr-only';
+@use 'helpers/ax-button';
 
-@import "blocks/_defaults";
-@import "blocks/typography";
-@import "blocks/link";
-@import "blocks/page";
+@use 'blocks/_defaults';
+@use 'blocks/typography';
+@use 'blocks/link';
+@use 'blocks/page';
 
-@import "blocks/header";
-@import "blocks/top-bar";
-@import "blocks/icon";
+@use 'blocks/header';
+@use 'blocks/top-bar';
+@use 'blocks/icon';
 
-@import "blocks/menu";
-@import "blocks/nav";
+@use 'blocks/menu';
+@use 'blocks/nav';
 
-@import "blocks/main";
+@use 'blocks/main';
 
-@import "blocks/about-us";
+@use 'blocks/about-us';
 
-@import "blocks/compare-section";
-@import "blocks/bike";
+@use 'blocks/compare-section';
+@use 'blocks/bike';
 
-@import "blocks/details";
-@import "blocks/category";
+@use 'blocks/details';
+@use 'blocks/category';
 
-@import "blocks/contacts";
-@import "blocks/form";
-@import "blocks/address";
+@use 'blocks/contacts';
+@use 'blocks/form';
+@use 'blocks/address';
