@@ -1,16 +1,14 @@
 {
-    "name": "ny-bike",
-    "private": true,
-    "version": "0.0.0",
-    "type": "module",
+    "name": "my-bike",
+    "version": "1.0.0",
+    "source": "src/index.html",
     "scripts": {
-        "dev": "vite --open",
-        "build": "vite build",
-        "preview": "vite preview --open"
+        "start": "parcel --open",
+        "build": "parcel build --public-url=/dist/"
     },
     "devDependencies": {
-        "sass": "^1.80.6",
-        "vite": "^5.4.10",
-        "vite-plugin-html-minifier": "^1.0.4"
+        "@parcel/transformer-sass": "2.13.2",
+        "parcel": "^2.13.2",
+        "svgo": "^3"
     }
 }

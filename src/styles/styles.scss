@@ -1,32 +1,32 @@
-@import "/src/styles/utils/variables";
-@import "/src/styles/utils/mixins";
+@import "utils/variables";
+@import "utils/mixins";
 
-@import "/src/styles/helpers/fonts";
-@import "/src/styles/helpers/sr-only";
-@import "/src/styles/helpers/ax-button.scss";
+@import "helpers/fonts";
+@import "helpers/sr-only";
+@import "helpers/ax-button";
 
-@import "/src/styles/blocks/_defaults";
-@import "/src/styles/blocks/typography";
-@import "/src/styles/blocks/link";
-@import "/src/styles/blocks/page";
+@import "blocks/_defaults";
+@import "blocks/typography";
+@import "blocks/link";
+@import "blocks/page";
 
-@import "/src/styles/blocks/header";
-@import "/src/styles/blocks/top-bar";
-@import "/src/styles/blocks/icon";
+@import "blocks/header";
+@import "blocks/top-bar";
+@import "blocks/icon";
 
-@import "/src/styles/blocks/menu";
-@import "/src/styles/blocks/nav";
+@import "blocks/menu";
+@import "blocks/nav";
 
-@import "/src/styles/blocks/main";
+@import "blocks/main";
 
-@import "/src/styles/blocks/about-us";
+@import "blocks/about-us";
 
-@import "/src/styles/blocks/compare-section";
-@import "/src/styles/blocks/bike";
+@import "blocks/compare-section";
+@import "blocks/bike";
 
-@import "/src/styles/blocks/details";
-@import "/src/styles/blocks/category";
+@import "blocks/details";
+@import "blocks/category";
 
-@import "/src/styles/blocks/contacts";
-@import "/src/styles/blocks/form";
-@import "/src/styles/blocks/address";
+@import "blocks/contacts";
+@import "blocks/form";
+@import "blocks/address";

@@ -33,11 +33,11 @@
 
     &--menu {
         &:hover {
-            background-image: url(/src/assets/images/icons/icon-menu-hover.svg);
+            background-image: url(../assets/images/icons/icon-menu-hover.svg);
         }
     }
 
     &--close {
-        background-image: url(/src/assets/images/icons/icon-close.svg);
+        background-image: url(../assets/images/icons/icon-close.svg);
     }
 }
