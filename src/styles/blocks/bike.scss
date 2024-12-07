@@ -6,12 +6,18 @@
 
     &__link {
         display: inline-block;
+        text-align: center;
         overflow: hidden;
     }
 
     &__photo {
+        max-width: 324px;
         width: 100%;
         height: auto;
+
+        @include on-tablet {
+            max-width: 392px;
+        }
 
         @include hover(scale, 1.06);
     }
