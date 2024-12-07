@@ -15,11 +15,11 @@
         width: 100%;
         height: auto;
 
+        @include hover(scale, 1.06);
+
         @include on-tablet {
             max-width: 392px;
         }
-
-        @include hover(scale, 1.06);
     }
 
     &__title {
