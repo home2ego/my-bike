@@ -16,5 +16,23 @@ export default defineConfig({
                 minifyCSS: true,
             },
         }),
+        {
+            name: 'inject-preload-link',
+            transformIndexHtml(html) {
+                // Remove the default rel="stylesheet" link for external CSS
+                html = html.replace(
+                    /<link rel="stylesheet"[^>]*href="\/assets\/index-BNGKFr6Q.css"[^>]*>/,
+                    ''
+                );
+
+                // Inject only the preload link
+                html = html.replace(
+                    '</style>',
+                    `</style>\n<link rel="preload" href="/assets/index-BNGKFr6Q.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />`
+                );
+
+                return html;
+            },
+        },
     ],
 });
