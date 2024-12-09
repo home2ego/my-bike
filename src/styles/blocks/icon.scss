@@ -6,7 +6,7 @@
     @include hover(opacity, 0.6);
 
     &--phone {
-        background-image: url(../../images/icons/icon-phone.svg);
+        background-image: url(/images/icons/icon-phone.svg);
         position: relative;
 
         @include on-desktop {
@@ -37,14 +37,14 @@
     }
 
     &--menu {
-        background-image: url(../../images/icons/icon-menu.svg);
+        background-image: url(/images/icons/icon-menu.svg);
 
         &:hover {
-            background-image: url(../../images/icons/icon-menu-hover.svg);
+            background-image: url(/images/icons/icon-menu-hover.svg);
         }
     }
 
     &--close {
-        background-image: url(../../images/icons/icon-close.svg);
+        background-image: url(/images/icons/icon-close.svg);
     }
 }

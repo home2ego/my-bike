@@ -4,13 +4,66 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>MyBike</title>
-        <link
-            rel="preload"
-            href="/fonts/poppins-600.woff2"
-            as="font"
-            type="font/woff2"
-            crossorigin="anonymous"
-        />
+        <style>
+            @font-face {
+                font-display: optional;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                src: url('/fonts/poppins-600.woff2') format('woff2');
+                unicode-range: U+0020-007F;
+            }
+            body,
+            h1 {
+                margin: 0;
+            }
+            img {
+                vertical-align: bottom;
+            }
+            .page {
+                font-family: Poppins, system-ui, sans-serif;
+                color: #fff;
+                background-color: #1d1d1d;
+            }
+            .page__menu {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                translate: 0 -100%;
+            }
+            .container {
+                max-width: 1020px;
+                margin-inline: auto;
+                padding-inline: clamp(20px, 7.5vw, 120px);
+            }
+            .header__content {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .header__title {
+                text-align: center;
+                padding-bottom: clamp(88px, 20vw, 200px);
+            }
+            .title--xl {
+                font-size: clamp(36px, 8.5vw, 80px);
+                line-height: clamp(36px, 8.5vw, 80px);
+                font-weight: 600;
+                letter-spacing: -1.5px;
+            }
+            .top-bar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-block: clamp(24px, 6.5vw, 36px);
+            }
+            .top-bar__logo {
+                width: clamp(130px, 25.5vw, 187px);
+                height: auto;
+            }
+        </style>
         <link rel="stylesheet" href="/src/styles/styles.scss" />
         <link
             rel="icon"
