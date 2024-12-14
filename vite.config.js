@@ -21,14 +21,14 @@ export default defineConfig({
             transformIndexHtml(html) {
                 // Remove the default rel="stylesheet" link for external CSS
                 html = html.replace(
-                    /<link rel="stylesheet"[^>]*href="\/assets\/index-G_flcV3x.css"[^>]*>/,
+                    /<link rel="stylesheet"[^>]*href="\/assets\/index-De8CmPWu.css.css"[^>]*>/,
                     ''
                 );
 
                 // Inject only the preload link
                 html = html.replace(
                     '</style>',
-                    `</style>\n<link rel="preload" href="/assets/index-G_flcV3x.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />`
+                    `</style>\n<link rel="preload" href="/assets/index-De8CmPWu.css.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />`
                 );
 
                 return html;
