@@ -1,12 +1,7 @@
 .icon {
-    width: clamp(24px, 5.5vw, 32px);
-    height: clamp(24px, 5.5vw, 32px);
-    background-size: cover;
-
     @include hover(opacity, 0.6);
 
     &--phone {
-        background-image: url(/images/icons/icon-phone.svg);
         position: relative;
 
         @include on-desktop {
@@ -37,8 +32,6 @@
     }
 
     &--menu {
-        background-image: url(/images/icons/icon-menu.svg);
-
         &:hover {
             background-image: url(/images/icons/icon-menu-hover.svg);
         }

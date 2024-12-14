@@ -10,7 +10,7 @@
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 600;
-                src: url('/fonts/poppins-600.woff2') format('woff2');
+                src: url('/src/fonts/poppins-600.woff2') format('woff2');
                 unicode-range: U+0020-007F;
             }
             body,
@@ -63,13 +63,24 @@
                 width: clamp(130px, 25.5vw, 187px);
                 height: auto;
             }
+            .top-bar__icons {
+                display: flex;
+                column-gap: clamp(24px, 5.5vw, 32px);
+            }
+            .icon {
+                width: clamp(24px, 5.5vw, 32px);
+                height: clamp(24px, 5.5vw, 32px);
+                background-size: cover;
+            }
+            .icon--phone {
+                background-image: url(/src/images/icons/icon-phone.svg);
+            }
+            .icon--menu {
+                background-image: url(/src/images/icons/icon-menu.svg);
+            }
         </style>
         <link rel="stylesheet" href="/src/styles/styles.scss" />
-        <link
-            rel="icon"
-            type="image/svg+xml"
-            href="/images/icons/favicon.svg"
-        />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta
             name="description"
             content="Shift your ride, not gears. Find the fastest way to move in the city as the bike adapts intuitively to power the speed you need."
@@ -82,7 +93,7 @@
                 <div class="top-bar">
                     <a href="#">
                         <img
-                            src="/images/icons/logo.svg"
+                            src="/src/images/icons/logo.svg"
                             class="top-bar__logo"
                             alt="MyBike logo"
                             width="187px"
@@ -114,7 +125,7 @@
                 <div class="top-bar menu__top">
                     <a href="#">
                         <img
-                            src="/images/icons/logo-menu.svg"
+                            src="/src/images/icons/logo-menu.svg"
                             class="top-bar__logo"
                             alt="MyBike logo"
                             width="187px"
@@ -184,11 +195,11 @@
                     <article class="bike compares__bike">
                         <a href="#compares" class="bike__link">
                             <img
-                                src="/images/bike-1-large.webp"
+                                src="/src/images/bike-1-large.webp"
                                 sizes="(max-width: 576px) 324px, (min-width: 577px) and (max-width: 1020px) 392px, 324px"
                                 srcset="
-                                    /images/bike-1-large.webp 392w,
-                                    /images/bike-1.webp       324w
+                                    /src/images/bike-1-large.webp 392w,
+                                    /src/images/bike-1.webp       324w
                                 "
                                 alt="Sporty 4"
                                 class="bike__photo"
@@ -208,11 +219,11 @@
                     <article class="bike compares__bike">
                         <a href="#compares" class="bike__link">
                             <img
-                                src="/images/bike-2-large.webp"
+                                src="/src/images/bike-2-large.webp"
                                 sizes="(max-width: 576px) 324px, (min-width: 577px) and (max-width: 1020px) 392px, 324px"
                                 srcset="
-                                    /images/bike-2-large.webp 392w,
-                                    /images/bike-2.webp       324w
+                                    /src/images/bike-2-large.webp 392w,
+                                    /src/images/bike-2.webp       324w
                                 "
                                 alt="Ride in town ST"
                                 class="bike__photo"
@@ -232,11 +243,11 @@
                     <article class="bike compares__bike">
                         <a href="#compares" class="bike__link">
                             <img
-                                src="/images/bike-3-large.webp"
+                                src="/src/images/bike-3-large.webp"
                                 sizes="(max-width: 576px) 324px, (min-width: 577px) and (max-width: 1020px) 392px, 324px"
                                 srcset="
-                                    /images/bike-3-large.webp 392w,
-                                    /images/bike-3.webp       324w
+                                    /src/images/bike-3-large.webp 392w,
+                                    /src/images/bike-3.webp       324w
                                 "
                                 alt="Agile ride 3"
                                 class="bike__photo"
@@ -266,7 +277,7 @@
                                 class="category__link category__link--wide"
                             >
                                 <img
-                                    src="images/details-1.webp"
+                                    src="/src/images/details-1.webp"
                                     alt="Front view of the app attached to a bike's handlebar, showing calories burned and ridden distance on the screen."
                                     class="category__photo"
                                     width="672"
@@ -280,7 +291,7 @@
                                 class="category__link category__link--square"
                             >
                                 <img
-                                    src="images/details-2.webp"
+                                    src="/src/images/details-2.webp"
                                     alt="Rear view of the app attached to a bike's handlebar."
                                     class="category__photo"
                                     width="324"
@@ -306,7 +317,7 @@
                                 class="category__link category__link--wide"
                             >
                                 <img
-                                    src="images/details-3.webp"
+                                    src="/src/images/details-3.webp"
                                     alt="Front view of the bicycle with the range light attached to the front part of the frame."
                                     class="category__photo"
                                     width="672"
@@ -320,7 +331,7 @@
                                 class="category__link category__link--square"
                             >
                                 <img
-                                    src="images/details-4.webp"
+                                    src="/src/images/details-4.webp"
                                     alt="Rear view of the bicycle with the range light attached to the back part of the frame."
                                     class="category__photo"
                                     width="324"
@@ -349,7 +360,7 @@
                                 class="category__link category__link--square"
                             >
                                 <img
-                                    src="images/details-5.webp"
+                                    src="/src/images/details-5.webp"
                                     alt="Close-up of the hydraulic disc brake on the bike's handlebar, designed for total stopping power."
                                     class="category__photo"
                                     width="324"
@@ -363,7 +374,7 @@
                                 class="category__link category__link--wide"
                             >
                                 <img
-                                    src="images/details-6.webp"
+                                    src="/src/images/details-6.webp"
                                     alt="Lower part of the bicycle, showing lightweight wheels and frame."
                                     class="category__photo"
                                     width="672"

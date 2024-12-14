@@ -2,9 +2,4 @@
     &__logo {
         @include hover(opacity, 0.6);
     }
-
-    &__icons {
-        display: flex;
-        column-gap: clamp(24px, 5.5vw, 32px);
-    }
 }
