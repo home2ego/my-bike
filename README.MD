@@ -16,7 +16,7 @@
 
 ## Features
 
--   **Responsive Design**:
+-   `**Responsive Design**:`
     fully optimized for both mobile and desktop views, delivering a seamless user experience across all devices.
 -   **High Performance**:
     focused on fast load times, even on slower networks, to deliver reliable performance.
