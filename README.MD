@@ -16,9 +16,9 @@
 
 ## Features
 
--   `RESPONSIVE DESIGN: ` fully optimized for both mobile and desktop views, delivering a seamless user experience across all devices.
--   `HIGH PERFORMANCE: ` focused on fast load times, even on slower networks, to deliver reliable performance.
--   `ACCESSIBILITY FIRST: ` prioritizes accessibility with support for screen readers, keyboard navigation, and proper semantic HTML.
+-   **RESPONSIVE DESIGN:** - fully optimized for both mobile and desktop views, delivering a seamless user experience across all devices.
+-   **HIGH PERFORMANCE:** - focused on fast load times, even on slower networks, to deliver reliable performance.
+-   **ACCESSIBILITY FIRST:** - prioritizes accessibility with support for screen readers, keyboard navigation, and proper semantic HTML.
 
 > ❗ PageSpeed ​​​​Insights for mobile devices:
 
