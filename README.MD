@@ -2,9 +2,8 @@
 
 "MyBike" is a responsive landing page designed to promote and showcase bicycles. It provides information about different bike models, features, and pricing.
 
-### [MyBike Preview](https://my-bike-web.netlify.app/)
-
-### [MyBike Mockup](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
+-   ### [MyBike Preview](https://my-bike-web.netlify.app/)
+-   ### [MyBike Mockup](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
 
 ## Technologies Used
 
