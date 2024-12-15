@@ -12,10 +12,6 @@
 -   BEM methodology
 -   JavaScript
 
-## Preview
+# [MyBike Landing Page Preview](https://my-bike-web.netlify.app/)
 
-#[MyBike Landing Page Preview](https://my-bike-web.netlify.app/)
-
-## Mockup
-
-#[MyBike Mockup](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
+# [MyBike Mockup](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
