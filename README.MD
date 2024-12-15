@@ -19,7 +19,9 @@
 The page is fully optimized for both mobile and desktop views, ensuring a smooth user experience across various devices. It is also built with a focus on performance, guaranteeing fast load times even on slower networks, and prioritizes accessibility with support for screen readers, keyboard navigation, and proper semantic HTML.
 
 > ❗ PageSpeed ​​​​Insights for mobile devices:
-> ![REPORT](/readme-report/page-speed-mob.png)
+
+![REPORT](/readme-report/page-speed-mob.png)
 
 > ❗ PageSpeed ​​​​Insights for desktop devices:
-> ![REPORT](/readme-report/page-speed-desk.png)
+
+![REPORT](/readme-report/page-speed-desk.png)
