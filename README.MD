@@ -4,8 +4,6 @@
 
 ### [MyBike Preview](https://my-bike-web.pages.dev/)
 
-### [MyBike Mockup](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
-
 ## Technologies Used
 
 -   HTML5
