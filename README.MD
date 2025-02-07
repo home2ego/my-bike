@@ -6,25 +6,24 @@
 
 ## Technologies Used
 
--   HTML5
--   CSS3
--   Sass (SCSS)
--   BEM methodology
--   JavaScript
+- HTML
+- Sass (SCSS)
+- JavaScript
+- BEM methodology
 
 ## Features
 
 > 👉 Responsive Design:
 
--   fully optimized for both mobile and desktop views, delivering a seamless user experience across all devices.
+- fully optimized for both mobile and desktop views, delivering a seamless user experience across all devices.
 
 > 👉 High Performance:
 
--   focused on fast load times, even on slower networks, to deliver reliable performance.
+- focused on fast load times, even on slower networks, to deliver reliable performance.
 
 > 👉 Accessibility First:
 
--   prioritizes accessibility with support for screen readers, keyboard navigation, and proper semantic HTML.
+- prioritizes accessibility with support for screen readers, keyboard navigation, and proper semantic HTML.
 
 > ❗ PageSpeed ​​​​Insights for mobile devices:
 
