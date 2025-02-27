@@ -2,7 +2,7 @@
 
 "MyBike" is a responsive landing page designed to promote and showcase bicycles. It provides information about different bike models, features, and pricing.
 
-### [MyBike Preview](https://my-bike-web.pages.dev/)
+### [Live Demo](https://my-bike-web.pages.dev/)
 
 ## Technologies Used
 
