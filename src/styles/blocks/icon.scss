@@ -1,37 +1,37 @@
 .icon {
-    @include hover(opacity, 0.6);
+  @include hover(opacity, 0.6);
 
-    &--phone {
-        position: relative;
+  &--phone {
+    position: relative;
 
-        @include on-desktop {
-            &::before {
-                position: absolute;
-                top: 50%;
-                translate: 0 -50%;
-                right: 32px;
-                padding: 8px 20px 8px 0;
-                content: '+1 234 555-55-55';
-                white-space: nowrap;
-                color: $primary-color;
-                font-size: 12px;
-                line-height: 16px;
-                font-weight: 600;
-                letter-spacing: 2px;
+    @include on-desktop {
+      &::before {
+        position: absolute;
+        top: 50%;
+        translate: 0 -50%;
+        right: 32px;
+        padding: 8px 20px 8px 0;
+        content: '+1 234 555-55-55';
+        white-space: nowrap;
+        color: $primary-color;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 600;
+        letter-spacing: 2px;
 
-                pointer-events: none;
-                opacity: 0;
-                transition: inherit;
-            }
+        pointer-events: none;
+        opacity: 0;
+        transition: inherit;
+      }
 
-            &:hover::before {
-                opacity: 1;
-                pointer-events: all;
-            }
-        }
+      &:hover::before {
+        opacity: 1;
+        pointer-events: all;
+      }
     }
+  }
 
-    &--close {
-        background-image: url(/images/icons/icon-close.svg);
-    }
+  &--close {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="%231D1D1D" d="M19.194 6.417a1.14 1.14 0 1 0-1.611-1.611L12 10.389 6.417 4.806a1.14 1.14 0 1 0-1.611 1.611L10.389 12l-5.583 5.583a1.14 1.14 0 1 0 1.611 1.611L12 13.611l5.583 5.583a1.14 1.14 0 1 0 1.611-1.611L13.611 12z"/></svg>');
+  }
 }
