@@ -1,17 +1,33 @@
-# Parcel cache files
-.parcel-cache
-
-# Output directory
-dist
-
-# Node dependencies
-node_modules
-
-# Environment files
-*.env
-
-# macOS files
+# Local
 .DS_Store
+Icon?
+*.local
+*.log*
 
-# Editor files
-.vscode
+# Dist
+dist/
+
+# Node
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Vite
+.vite/
+.cache/
+
+# Env files
+.env
+.env.*
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Testing
+coverage/
+
+# TypeScript
+*.tsbuildinfo
