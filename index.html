@@ -13,18 +13,13 @@
       href="/poppins-600.woff2"
       type="font/woff2"
       fetchpriority="high"
+      crossorigin="anonymous"
     />
-    <link
-      rel="preload"
-      href="/header-bg.webp"
-      as="image"
-      type="image/webp"
-      fetchpriority="high"
-    />
+    <link rel="preload" href="/header-bg.webp" as="image" type="image/webp" />
     <title>MyBike</title>
     <style>
       @font-face {
-        font-display: swap;
+        font-display: optional;
         font-family: "Poppins";
         font-style: normal;
         font-weight: 600;
@@ -218,6 +213,7 @@
                 class="bike__photo"
                 width="324"
                 height="256"
+                fetchpriority="low"
               />
             </a>
             <h3 class="bike__title title--md">Sporty 4</h3>
@@ -241,6 +237,7 @@
                 class="bike__photo"
                 width="324"
                 height="256"
+                fetchpriority="low"
               />
             </a>
             <h3 class="bike__title title--md">Ride in town ST</h3>
@@ -264,6 +261,7 @@
                 class="bike__photo"
                 width="324"
                 height="256"
+                fetchpriority="low"
               />
             </a>
             <h3 class="bike__title title--md">Agile ride 3</h3>
