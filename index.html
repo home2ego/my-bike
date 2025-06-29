@@ -203,10 +203,10 @@
           <article class="bike compares__bike">
             <a href="#compares" class="bike__link">
               <img
-                src="/src/images/bike-1-large.webp"
+                src="/src/images/bike-1-lg.webp"
                 srcset="
-                  /src/images/bike-1-large.webp 392w,
-                  /src/images/bike-1.webp       324w
+                  /src/images/bike-1-lg.webp 392w,
+                  /src/images/bike-1.webp    324w
                 "
                 sizes="(max-width: 576px) 324px, (max-width: 1020px) 392px, 324px"
                 alt="Sporty 4"
@@ -227,10 +227,10 @@
           <article class="bike compares__bike">
             <a href="#compares" class="bike__link">
               <img
-                src="/src/images/bike-2-large.webp"
+                src="/src/images/bike-2-lg.webp"
                 srcset="
-                  /src/images/bike-2-large.webp 392w,
-                  /src/images/bike-2.webp       324w
+                  /src/images/bike-2-lg.webp 392w,
+                  /src/images/bike-2.webp    324w
                 "
                 sizes="(max-width: 576px) 324px, (max-width: 1020px) 392px, 324px"
                 alt="Ride in town ST"
@@ -251,10 +251,10 @@
           <article class="bike compares__bike">
             <a href="#compares" class="bike__link">
               <img
-                src="/src/images/bike-3-large.webp"
+                src="/src/images/bike-3-lg.webp"
                 srcset="
-                  /src/images/bike-3-large.webp 392w,
-                  /src/images/bike-3.webp       324w
+                  /src/images/bike-3-lg.webp 392w,
+                  /src/images/bike-3.webp    324w
                 "
                 sizes="(max-width: 576px) 324px, (max-width: 1020px) 392px, 324px"
                 alt="Agile ride 3"
@@ -281,14 +281,27 @@
           <article class="category">
             <div class="category__photos">
               <a href="#details" class="category__link category__link--wide">
-                <img
-                  src="/src/images/details-1.webp"
-                  alt="Front view of the app attached to a bike's handlebar, showing calories burned and ridden distance on the screen."
-                  class="category__photo"
-                  width="672"
-                  height="324"
-                  loading="lazy"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 576px)"
+                    type="image/webp"
+                    srcset="/src/images/details-1-lg.webp"
+                  />
+
+                  <source
+                    type="image/webp"
+                    srcset="/src/images/details-1.webp"
+                  />
+
+                  <img
+                    src="/src/images/details-1-lg.webp"
+                    alt="Front view of the app attached to a bike's handlebar, showing calories burned and ridden distance on the screen."
+                    class="category__photo"
+                    width="672"
+                    height="324"
+                    loading="lazy"
+                  />
+                </picture>
               </a>
 
               <a href="#details" class="category__link category__link--square">
@@ -314,14 +327,27 @@
           <article class="category">
             <div class="category__photos">
               <a href="#details" class="category__link category__link--wide">
-                <img
-                  src="/src/images/details-3.webp"
-                  alt="Front view of the bicycle with the range light attached to the front part of the frame."
-                  class="category__photo"
-                  width="672"
-                  height="324"
-                  loading="lazy"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 576px)"
+                    type="image/webp"
+                    srcset="/src/images/details-3-lg.webp"
+                  />
+
+                  <source
+                    type="image/webp"
+                    srcset="/src/images/details-3.webp"
+                  />
+
+                  <img
+                    src="/src/images/details-3-lg.webp"
+                    alt="Front view of the bicycle with the range light attached to the front part of the frame."
+                    class="category__photo"
+                    width="672"
+                    height="324"
+                    loading="lazy"
+                  />
+                </picture>
               </a>
 
               <a href="#details" class="category__link category__link--square">
@@ -359,14 +385,27 @@
               </a>
 
               <a href="#details" class="category__link category__link--wide">
-                <img
-                  src="/src/images/details-6.webp"
-                  alt="Lower part of the bicycle, showing lightweight wheels and frame."
-                  class="category__photo"
-                  width="672"
-                  height="324"
-                  loading="lazy"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 576px)"
+                    type="image/webp"
+                    srcset="/src/images/details-6-lg.webp"
+                  />
+
+                  <source
+                    type="image/webp"
+                    srcset="/src/images/details-6.webp"
+                  />
+
+                  <img
+                    src="/src/images/details-6-lg.webp"
+                    alt="Lower part of the bicycle, showing lightweight wheels and frame."
+                    class="category__photo"
+                    width="672"
+                    height="324"
+                    loading="lazy"
+                  />
+                </picture>
               </a>
             </div>
 

@@ -1,35 +1,35 @@
 @mixin on-tablet {
-    @media (min-width: $tablet-min-width) {
-        @content;
-    }
+  @media (min-width: $tablet-min-width) {
+    @content;
+  }
 }
 
 @mixin on-desktop {
-    @media (min-width: $desktop-min-width) {
-        @content;
-    }
+  @media (min-width: $desktop-min-width) {
+    @content;
+  }
 }
 
 @mixin hover($property, $value) {
-    transition: $property 0.2s ease-in-out;
+  transition: $property 0.2s ease-in-out;
 
-    &:hover {
-        #{$property}: $value;
-    }
+  &:hover {
+    #{$property}: $value;
+  }
 }
 
 @mixin page-grid {
-    --columns: 2;
+  --columns: 2;
 
-    display: grid;
-    grid-template-columns: repeat(var(--columns), 1fr);
-    column-gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  column-gap: 24px;
 
-    @include on-tablet {
-        --columns: 6;
-    }
+  @include on-tablet {
+    --columns: 6;
+  }
 
-    @include on-desktop {
-        --columns: 12;
-    }
+  @include on-desktop {
+    --columns: 12;
+  }
 }

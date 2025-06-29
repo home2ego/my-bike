@@ -1,49 +1,55 @@
 .category {
-    &__photos {
-        margin-bottom: 16px;
+  &__photos {
+    margin-bottom: 16px;
 
-        @include page-grid;
+    @include page-grid;
+  }
+
+  &__link {
+    position: relative;
+    overflow: hidden;
+
+    &--wide {
+      @include on-tablet {
+        grid-column: span 4;
+      }
+
+      @include on-desktop {
+        grid-column: span 8;
+      }
     }
 
-    &__link {
-        position: relative;
-        overflow: hidden;
+    &--square {
+      padding-bottom: 100%;
 
-        &--wide {
-            @include on-tablet {
-                grid-column: span 4;
-            }
+      @include on-tablet {
+        grid-column: span 2;
+      }
 
-            @include on-desktop {
-                grid-column: span 8;
-            }
-        }
+      @include on-desktop {
+        grid-column: span 4;
+      }
+    }
+  }
 
-        &--square {
-            padding-bottom: 100%;
-            height: 0;
+  &__photo {
+    position: absolute;
 
-            @include on-tablet {
-                grid-column: span 2;
-            }
+    max-width: 228px;
+    max-height: 228px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
-            @include on-desktop {
-                grid-column: span 4;
-            }
-        }
+    @include on-tablet {
+      max-width: none;
+      max-height: none;
     }
 
-    &__photo {
-        position: absolute;
+    @include hover(scale, 1.06);
+  }
 
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-
-        @include hover(scale, 1.06);
-    }
-
-    &__title {
-        margin-bottom: 8px;
-    }
+  &__title {
+    margin-bottom: 8px;
+  }
 }
