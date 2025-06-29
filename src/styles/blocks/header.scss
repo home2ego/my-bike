@@ -1,5 +1,9 @@
 .header {
-  background-image: url("/header-bg.webp");
+  background-image: url("/header-bg-sm.webp");
   background-size: cover;
   background-position: center right clamp(15%, 20vw, 30%);
+
+  @include on-tablet {
+    background-image: url("/header-bg.webp");
+  }
 }

@@ -15,7 +15,20 @@
       fetchpriority="high"
       crossorigin="anonymous"
     />
-    <link rel="preload" href="/header-bg.webp" as="image" type="image/webp" />
+    <link
+      rel="preload"
+      href="/header-bg.webp"
+      as="image"
+      type="image/webp"
+      media="(min-width: 576px)"
+    />
+    <link
+      rel="preload"
+      href="/header-bg-sm.webp"
+      as="image"
+      type="image/webp"
+      media="(max-width: 575px)"
+    />
     <title>MyBike</title>
     <style>
       @font-face {
@@ -95,12 +108,7 @@
         background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><g clip-path="url(%23a)"><path fill="%23fff" d="M3 17a1 1 0 0 0 1 1h7a1 1 0 1 0 0-2H4a1 1 0 0 0-1 1m0-5a1 1 0 0 0 1 1h16a1 1 0 1 0 0-2H4a1 1 0 0 0-1 1m1-6a1 1 0 0 0 0 2h11a1 1 0 1 0 0-2z"/></g><defs><clipPath id="a"><path fill="%23fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>');
       }
     </style>
-    <link
-      rel="preload"
-      href="/src/styles/styles.scss"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
+    <link rel="stylesheet" href="/src/styles/styles.scss" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
 
