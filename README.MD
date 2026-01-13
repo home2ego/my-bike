@@ -1,29 +1,27 @@
-# MyBike Landing Page
+# MyBike
 
-"MyBike" is a responsive landing page designed to promote and showcase bicycles. It provides information about different bike models, features, and pricing.
+A responsive landing page that showcases bicycles, with details on bike models, prices, and features. It is fully optimized for both mobile and desktop devices, with a strong focus on performance.
 
-### [Live Demo](https://my-bike-web.pages.dev/)
+## 🚀 Live Demo
 
-## Technologies Used
+Experience the page live at: https://my-bike-web.pages.dev/
 
-- HTML
-- Sass (SCSS)
-- JavaScript
-- BEM methodology
+## 📦 Technologies
 
-## Features
+### Core
+- `HTML` — Structure
+- `SCSS` — Styling
+- `BEM` — Methodology for CSS
 
-> 👉 Responsive Design:
+### Development & Deployment
+- `Vite` — Build tool
+- `Cloudflare` — Hosting and deployment
 
-- fully optimized for both mobile and desktop views, delivering a seamless user experience across all devices.
-
-> 👉 High Performance:
-
-- focused on fast load times, even on slower networks, to deliver reliable performance.
-
-> 👉 Accessibility First:
-
-- prioritizes accessibility with support for screen readers, keyboard navigation, and proper semantic HTML.
+## ✨ Features
+- **Responsive Design**: Optimized for both mobile and desktop devices.
+- **Bike Comparison**: Allows users to compare bike models, prices, and features.
+- **Contact Us**: Includes phone number, email, address, and a send button for inquiries.
+- **High Performance**: Fast loading on both mobile and desktop, with excellent PageSpeed Insights scores.
 
 > ❗ PageSpeed ​​​​Insights for mobile devices:
 
@@ -32,3 +30,11 @@
 > ❗ PageSpeed ​​​​Insights for desktop devices:
 
 ![REPORT](/readme-report/page-speed-desk.png)
+
+## 🚦 Running the Project
+
+```bash
+git clone https://github.com/home2ego/my-bike.git
+cd my-bike
+npm install    # or pnpm install / yarn install
+npm run dev    # or pnpm dev / yarn dev
