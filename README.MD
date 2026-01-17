@@ -4,12 +4,12 @@ A responsive landing page that showcases bicycles, with details on bike models, 
 
 ## 🚀 Live Demo
 
-Experience the page live at: https://my-bike-web.pages.dev/
+Try it here: https://my-bike-web.pages.dev/
 
 ## 📦 Technologies
 
 ### Core
-- `HTML` — Structure
+- `HTML5` — Structure
 - `SCSS` — Styling
 - `BEM` — Methodology for CSS
 
