@@ -1,6 +1,6 @@
 # MyBike
 
-A static responsive landing page for a bicycle shop, built with HTML and SCSS.
+A static responsive landing page for a bicycle shop, built with HTML, SCSS, and BEM.
 
 ## [Live Demo](https://my-bike-web.pages.dev/)
 
